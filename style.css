@@ -48,7 +48,7 @@
 }
 
 .dToday h1{
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 30px;
 }
 
@@ -110,7 +110,7 @@
 }
 
 .dPlan h1{
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 30px;
 }
 
@@ -152,4 +152,86 @@ margin: 10px 0;
     letter-spacing: 1px;
     font-weight: 300;
     font-size: 17px;
+}
+
+
+/* Updates */
+.updates{
+    text-align: center;
+    padding: 80px 200px;
+}
+
+.updates h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.updates p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.upDateform{
+    display: flex;
+    padding: 100px 200px;
+    background-color: rgb(216, 212, 255);
+}
+
+.upDateform1{
+    width: 70%;
+    padding: 15px 15px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.upDateform2{
+    width: 30%;
+    background-color: blue;
+    padding: 15px 15px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+}
+
+.footer h1{
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(0, 255, 255);
+    font-size: 40px;
+}
+
+.footer p{
+    color: rgb(212, 212, 212);
+    letter-spacing: 2px;
 }
