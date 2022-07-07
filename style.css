@@ -22,9 +22,10 @@
 
 }
 .header p{
-    font-size: 25px;
-    color: rgb(195, 195, 195);
+    font-size: 22px;
+    color: rgb(223, 223, 223);
     margin-bottom: 50px;
+    letter-spacing: 2px;
 }
 .header a{
     text-decoration: none;
@@ -54,6 +55,8 @@
 .dToday p{
     font-size: 20px;
     margin-bottom: 50px;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
 
 .takas{
@@ -94,5 +97,59 @@
     background-color: darkblue;
     letter-spacing: 1px;
     border-radius: 5px;
+    font-size: 17px;
+}
+
+
+
+
+/* dPlan */
+.dPlan{
+    text-align: center;
+    padding: 80px 200px;
+}
+
+.dPlan h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.dPlan p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.threeSections{
+    display: flex;
+}
+
+.threeSection{
+    width: 33.33%;
+    margin: 10px 10px;
+    padding: 30px 15px;
+    text-align: left;
+}
+
+#dPlan1{
+    background-color: rgba(0, 0, 139, 0.158);
+}
+
+#dPlan2{
+    background-color: rgba(139, 0, 0, 0.13);
+}
+
+#dPlan3{
+    background-color: rgba(63, 139, 0, 0.123);
+}
+
+.threeSection h2{
+margin: 10px 0;
+}
+
+.threeSection h3{
+    letter-spacing: 1px;
+    font-weight: 300;
     font-size: 17px;
 }
